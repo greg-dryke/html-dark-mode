@@ -1,9 +1,9 @@
 # html-dark-mode
 
 ## Overview
-Tracking HTML "dark mode" through prefers-color-scheme
+Tracking HTML "dark mode" rollout through prefers-color-scheme.
 
-Script snippet to check for the tag in all stylesheets on a site:
+Javascript snippet to check for the tag in all stylesheets on a site:
 ```
 var supported = false;
 for (var i = 0; i < document.styleSheets.length; i++)
